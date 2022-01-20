@@ -40,10 +40,10 @@ if(name.substring(0,1) === "R"){
 //seu sobrenome tenha mais de 6 letras OU seu nome começar com 
 //a letra E
 
-let nome = "Luciana"
+let nome2 = "Luciana"
 let sobrenome = "Santos"
 
-if(nome.substring(0,1) === "E" || sobrenome.length > 6){
+if(nome2.substring(0,1) === "E" || sobrenome.length > 6){
     console.log("Seu nome começa com a letra E ou seu sobrenome tem mais de 6 letras")
 }else{
     console.log("Seu nome não começa com a letra E ou seu sobrenome não tem mais de 6 letras")
